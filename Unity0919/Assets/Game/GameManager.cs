@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
         //yield return new WaitForSeconds(1);
         //print("測試2");
 
-        AsyncOperation ao = SceneManager.LoadSceneAsync("AK47");
+        AsyncOperation ao = SceneManager.LoadSceneAsync("Ground");
         ao.allowSceneActivation = false;
 
         while (ao.isDone == false)
@@ -47,5 +47,15 @@ public class GameManager : MonoBehaviour
 
         }
 
+    }
+
+    public void Replay()
+    {
+        SceneManager.LoadScene("0926");
+     }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

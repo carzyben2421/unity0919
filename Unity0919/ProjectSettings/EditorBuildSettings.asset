@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/0926.unity
     guid: 6cdc6bf8848c3f04dbcd47262b4e537c
   - enabled: 1
-    path: Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/AK47.unity
-    guid: 5923bb0107620bc46b2727a5d3f12141
+    path: Assets/Scenes/Ground.unity
+    guid: 802e9d80b440169449775d01d92b80d5
   m_configObjects: {}
